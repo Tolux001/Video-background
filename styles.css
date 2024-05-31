@@ -221,10 +221,10 @@ h1 {
 
 .switch-btn {
 	position: absolute;
-	bottom: 7%;
-	left: 7%;
-	width: 7rem;
-	height: 2rem;
+	bottom: 8%;
+	left: 8%;
+	width: 8rem;
+	height: 2.4rem;
 	display: flex;
 	border-radius: var(--radius);
 	align-items: center;
@@ -234,7 +234,7 @@ h1 {
 }
 .switch-btn span {
 	display: inline-block;
-	font-size: 0.85rem;
+	font-size: 1rem;
 	cursor: pointer;
 	text-transform: capitalize;
 	color: var(--clr-primary-5);
@@ -251,7 +251,7 @@ h1 {
 	display: block;
 	transition: var(--transition);
 }
-.slide .switch {
+.slide {
 	left: 50%;
 }
 /* header after */

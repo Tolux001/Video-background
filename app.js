@@ -15,3 +15,9 @@ btn.addEventListener("click", () => {
 		switchButton.classList.remove("slide");
 	}
 });
+
+// Preloader 
+const docPreloader = document.querySelector(".preloader");
+window.addEventListener('load', () => {
+    docPreloader.classList.add('hide-preloader')
+});
